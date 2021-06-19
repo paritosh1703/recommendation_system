@@ -138,13 +138,13 @@ def predict():
         movie=notfound(user_liking,l1)
         print(movie)
         if movie in l1 and movie in l2:
-            c1=cont_recommend(movie,5)
-            c2=collab_recommend(movie,5)
+            c1=cont_recommend(movie,4)
+            c2=collab_recommend(movie,4)
             output=c1+c2
             output=set(output)
             output=list(output)
         elif movie in l1:
-            output=cont_recommend(movie,10)
+            output=cont_recommend(movie,8)
     if flag==1:
         return render_template('not_found.html',output=output,y=movie)
     else:     
