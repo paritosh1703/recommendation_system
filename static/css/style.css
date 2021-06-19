@@ -1,0 +1,66 @@
+.centre{
+	height: 500px;
+	width: 30%;
+	color:red;
+	font: 1em sans-serif;
+	margin-top:8%;
+	margin-left:35%;
+	font-size: large;
+	background-color: black;
+}
+h1{
+	text-align: center;
+	color: crimson;
+}
+.btn{
+	margin-top: 2%;
+	text-align: center;
+	margin-left: 35%;
+	color:white;
+	size: 3%;
+	width: 30%;
+	background-color:black;
+}
+input{
+	margin-top: 3%;
+	margin-left: 7%;
+	width: 50%;
+	height: 40px;
+	color: red;
+}
+p{
+	color: red;
+}
+.name{
+	margin-left: 2%;
+}
+body{
+	
+	background-image: url("https://von.gov.ng/wp-content/uploads/2021/04/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	text-align: center;
+}
+.mid{
+	height: 100px;
+	width: 30%;
+	color:red;
+	font: 1em sans-serif;
+	margin-top:8%;
+	margin-left:35%;
+	font-size: large;
+	background-color: black;
+}
+.not{
+	background-color: black;
+	padding-top: 2%;
+	height: 50px;
+	width: 56%;
+	color:red;
+	font: 4em sans-serif;
+	font-size: large;
+	margin-left: 25%;
+	margin-top: 14%;
+}
